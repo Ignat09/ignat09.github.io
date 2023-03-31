@@ -2,7 +2,7 @@ let cocki = document.cookie;
 let cong = document.getElementById("cong");
 if (cocki != "") {
   cong.innerHTML = `${cocki}, спасибо за покупки!`;
-} else if ((cocki = "")) {
+} else if (cocki = "") {
   cong.innerHTML = `Спасибо вам за покупки!`;
 }
 
